@@ -1,0 +1,59 @@
+:root{
+    --colmin: rgb(102,21,34);
+    --tamanio: 25px
+}
+
+*{
+    margin: 0;
+    font: sans-serif;
+}
+
+body{
+    height: 100vh;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.padre{
+    background-color: aqua;
+    padding: 2%;
+    border: 2px solid black;
+    margin: 30px;
+}
+
+.padre div{
+    border-radius: 100%;
+}
+
+.n1{
+    background-color: red;
+    padding: 20px;
+}
+
+.n2{
+    background-color: darkcyan;
+    padding: 20PX;
+}
+.n3{
+    background-color: teal;
+    padding: 20PX;
+}
+.n4{
+    background-color: crimson;
+    padding: 20PX;
+}
+.n5{
+    background-color: royalblue;
+    padding: 20PX;
+}
+.n6{
+    background-color: palevioletred;
+    padding: 20PX;
+}
+.n7{
+    background-color: lime;
+    padding: 20PX;
+}
